@@ -75,24 +75,24 @@ document.addEventListener("DOMContentLoaded", function() {
   position: relative;
   margin: 2em 0;
 }
-.box-title.orange{
+.box.orange>.box-title{
   background-color: #ff9800;
 }
-.box-content.orange{
+.box.orange>.box-content{
   background-color: #fff3e0;
   border-color: #ff9800;
 }
-.box-title.green{
+.box.green>.box-title{
   background-color: #4caf50;
 }
-.box-content.green{
+.box.green>.box-content{
   background-color: #e8f5e9;
   border-color: #4caf50;
 }
-.box-title.purple{
+.box.purple>.box-title{
   background-color: #9c27b0;
 }
-.box-content.purple{
+.box.purple>.box-content{
   background-color: #f3e5f5;
   border-color: #9c27b0;
 }
@@ -127,54 +127,34 @@ p,div{
   margin: 0 0 0.5em 0;
   font-family: Times New Roman, 楷体;
 }
-.remark:before{
-  content:"Read this: ";
-}
 </style>
 <!-- 正文从这里开始 -->
 <h1 id="mdnote">mdnote</h1>
-<p>矩阵的初等变换是矩阵的一种十分重要的运算，它在解线性方程组、求逆阵
-及矩阵理论的探讨中都可起重要的作用。为引进矩阵的初等变换，先来分析用消
-元法解线性方程组的例子。</p>
-<div class="box">
-  <div class="box-title">引例</div>
-  <div class="box-content">
-  后续补充
-<p>测试</p>
-  </div>
-</div>
+<p>一段文字</p>
 <div class="remark">
-  <!-- <div class="remark-title">说明</div> -->
-<p>矩阵的初等变换是矩阵的一种十分重要的运算，它在解线性方程组、求逆阵
-及矩阵理论的探讨中都可起重要的作用。为引进矩阵的初等变换，先来分析用消
-元法解线性方程组的例子。</p>
-<p>测试</p>
-<p>测试</p>
+<div class="remark-title">小标题</div>
+<p>一段文字</p>
 </div>
-<div class="box">
-  <div class="box-title orange">橙色标题</div>
-  <div class="box-content orange">
+<div class="box orange">
+<div class="box-title">橙色标题</div>
+<div class="box-content">
 <p>文本</p>
-  </div>
-</div>
-<div class="box">
-  <div class="box-title green">绿色标题</div>
-  <div class="box-content green">
+</div></div>
+<div class="box green">
+<div class="box-title">绿色标题</div>
+<div class="box-content">
 <p>文本</p>
-  </div>
-</div>
+</div></div>
 <div class="box">
-  <div class="box-title">蓝色标题</div>
-  <div class="box-content">
+<div class="box-title">蓝色标题</div>
+<div class="box-content">
 <p>文本</p>
-  </div>
-</div>
-<div class="box">
-  <div class="box-title purple">紫色标题</div>
-  <div class="box-content purple">
+</div></div>
+<div class="box purple">
+<div class="box-title">紫色标题</div>
+<div class="box-content">
 <p>文本</p>
-  </div>
-</div>
+</div></div>
 
     </body>
     </html>
