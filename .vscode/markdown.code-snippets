@@ -1,0 +1,17 @@
+{
+    "box":{
+        "prefix": "\\box",
+        "body": [
+            "<div class=\"box\">",
+            "<div class=\"box-title\">$1</div>",
+            "<div class=\"box-content\">\n\n$2\n\n</div></div>\n$0"
+        ]
+    },
+    "remark":{
+        "prefix": "\\remark",
+        "body": [
+            "<div class=\"remark\">",
+            "<div class=\"remark-title\">$1</div>\n\n$2\n\n</div>\n$0"
+        ]
+    }
+}
