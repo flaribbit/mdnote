@@ -5,3 +5,5 @@
 使用环境为 vscode + markdown all in one 插件。
 
 还有很多奇奇怪怪的想法（例如选择填空题互动？）等待实现。
+
+[效果预览](https://flaribbit.github.io/mdnote/demo/note.html)
