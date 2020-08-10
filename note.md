@@ -49,24 +49,24 @@ document.addEventListener("DOMContentLoaded", function() {
   position: relative;
   margin: 2em 0;
 }
-.box-title.orange{
+.box.orange>.box-title{
   background-color: #ff9800;
 }
-.box-content.orange{
+.box.orange>.box-content{
   background-color: #fff3e0;
   border-color: #ff9800;
 }
-.box-title.green{
+.box.green>.box-title{
   background-color: #4caf50;
 }
-.box-content.green{
+.box.green>.box-content{
   background-color: #e8f5e9;
   border-color: #4caf50;
 }
-.box-title.purple{
+.box.purple>.box-title{
   background-color: #9c27b0;
 }
-.box-content.purple{
+.box.purple>.box-content{
   background-color: #f3e5f5;
   border-color: #9c27b0;
 }
@@ -115,17 +115,17 @@ p,div{
 
 </div>
 
-<div class="box">
-<div class="box-title orange">橙色标题</div>
-<div class="box-content orange">
+<div class="box orange">
+<div class="box-title">橙色标题</div>
+<div class="box-content">
 
 文本
 
 </div></div>
 
-<div class="box">
-<div class="box-title green">绿色标题</div>
-<div class="box-content green">
+<div class="box green">
+<div class="box-title">绿色标题</div>
+<div class="box-content">
 
 文本
 
@@ -139,9 +139,9 @@ p,div{
 
 </div></div>
 
-<div class="box">
-<div class="box-title purple">紫色标题</div>
-<div class="box-content purple">
+<div class="box purple">
+<div class="box-title">紫色标题</div>
+<div class="box-content">
 
 文本
 
