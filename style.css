@@ -1,0 +1,65 @@
+body {
+    font-size: 16px;
+    font-family: Times New Roman, 宋体;
+}
+
+.note {
+    font-family: Times New Roman, 楷体;
+}
+
+.note ti {
+    color: #2196f3;
+    font-family: 黑体;
+}
+
+.box {
+    position: relative;
+    padding: 1em 0;
+}
+
+.box ti {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 1.2em;
+    padding: 0.4em 0.8em;
+    background-color: #2196f3;
+}
+
+.box ct {
+    display: block;
+    padding: 1.5em 1.5em 0 1.5em;
+    background-color: #e3f2fd;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #2196f3;
+}
+
+.box.orange>ti {
+    background-color: #ff9800;
+}
+
+.box.orange>ct {
+    background-color: #fff3e0;
+    border-color: #ff9800;
+}
+
+.box.green>ti {
+    background-color: #4caf50;
+}
+
+.box.green>ct {
+    background-color: #e8f5e9;
+    border-color: #4caf50;
+}
+
+.box.purple>ti {
+    background-color: #9c27b0;
+}
+
+.box.purple>ct {
+    background-color: #f3e5f5;
+    border-color: #9c27b0;
+}
