@@ -3,6 +3,10 @@ body {
     font-family: Times New Roman, 宋体;
 }
 
+p, ul, ol {
+    margin: 0.5em 0;
+}
+
 .note {
     font-family: Times New Roman, 楷体;
 }
@@ -13,28 +17,24 @@ body {
 }
 
 .box {
-    position: relative;
-    padding: 1em 0;
-}
-
-.box ti {
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    top: 0;
-    left: 1.2em;
-    padding: 0.4em 0.8em;
-    background-color: #2196f3;
-}
-
-.box ct {
     display: block;
-    padding: 1.5em 1.5em 0 1.5em;
+    position: relative;
+    padding: 1em 1.5em 0 1.5em;
+    margin: 2em 0;
     background-color: #e3f2fd;
     border-width: 1.5px;
     border-style: solid;
     border-radius: 8px;
     border-color: #2196f3;
+}
+
+.box .box-title {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: -1.2em;
+    padding: 0.4em 0.8em;
+    background-color: #2196f3;
 }
 
 .box.orange>ti {
